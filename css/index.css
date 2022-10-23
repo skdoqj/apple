@@ -1,0 +1,68 @@
+@charset 'uff-8';
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29, 31);
+    letter-spacing: -0.05em;
+    background: white;
+}
+
+p {
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: rgb(29, 29, 31);
+}
+.global-nav {
+    height: 44px;
+    background: #111;
+    
+}
+
+.global-nav-link ,.local-nav-links{
+    display: flex;
+    align-items: center; 
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+.global-nav-link {
+    justify-content: space-between;
+   
+}
+.global-nav-link a{
+    color: #f5f5f7;
+    font-size: 12px;
+}
+
+.product-name {
+    margin-right: auto;
+}
+
+.local-nav {
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+}
+
+.local-nav-links a:not(.product-name) {
+    margin-left: 2em;
+    font-size: 12px;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.purchase {
+    background: #0071e3;
+    color: white;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
